@@ -20,9 +20,9 @@ vendor/lib/libmotaudioutils.so
 vendor/lib/libtinycompress_vendor.so
 vendor/lib/vndk/libtinyalsa.so:vendor/lib/libtinyalsa-moto.so;FIX_SONAME
 
-# Audio - Soundfx
-vendor/lib/soundfx/libmmieffectswrapper.so
-vendor/lib/soundfx/libspeakerbundle.so
+# Audio (FX modules)
+vendor/lib/soundfx/libasphere.so
+vendor/lib/soundfx/libshoebox.so
 
 # Camera
 vendor/etc/camera/aec_golden_wide.bin
