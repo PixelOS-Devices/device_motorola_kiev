@@ -26,7 +26,14 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
-    android.hardware.soundtrigger@2.3-impl \
+    audio_amplifier.lito \
+    audio.primary.lito \
+    sound_trigger.primary.lito
+
+PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger@2.3-impl
+
+PRODUCT_PACKAGES += \
     firmware_aw_cali.bin_symlink
 
 PRODUCT_COPY_FILES += \
