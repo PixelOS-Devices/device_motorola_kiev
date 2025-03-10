@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kiev.mk
+    $(LOCAL_DIR)/aosp_kiev.mk
