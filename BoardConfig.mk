@@ -40,7 +40,22 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Copy to recovery
 BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD := \
-    aw8624
+    utags \
+    mmi_annotate \
+    mmi_info \
+    tzlog_dump \
+    mmi_sys_temp \
+    qpnp-power-on-mmi \
+    wl2864c \
+    qpnp-smbcharger-mmi \
+    mcDrvModule \
+    exfat \
+    aw8624 \
+    sensors_class \
+    mmi_relay \
+    sx933x_sar \
+    touchscreen_mmi \
+    focaltech_0flash_mmi
 
 RECOVERY_KERNEL_MODULES := $(addsuffix .ko,$(BOARD_RECOVERY_RAMDISK_KERNEL_MODULES_LOAD))
 
